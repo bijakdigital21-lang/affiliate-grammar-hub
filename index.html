@@ -105,16 +105,19 @@
             margin-bottom: 15px;
         }
 
-        .image-placeholder {
-            background: #f1f5f9;
-            border: 2px dashed #cbd5e1;
-            border-radius: 8px;
-            padding: 30px;
-            text-align: center;
-            color: var(--text-muted);
-            font-size: 0.9rem;
+        .image-container {
             margin-top: 15px;
             margin-bottom: 15px;
+            border-radius: 8px;
+            overflow: hidden;
+            border: 1px solid var(--border-color);
+            background: #f1f5f9;
+        }
+
+        .image-container img {
+            width: 100%;
+            height: auto;
+            display: block;
         }
 
         .code-box {
@@ -181,7 +184,9 @@
                 <div class="step-body">
                     <h3>Buka Menu Pages</h3>
                     <p>Selepas register, pergi ke panel sebelah kiri dan tekan <strong>“pages”</strong>.</p>
-                    <div class="image-placeholder">🖼️ [Masukkan Gambar Langkah 1 Di Sini]</div>
+                    <div class="image-container">
+                        <img src="https://i.imgur.com/DM6pPg3.jpeg" alt="Langkah 1">
+                    </div>
                 </div>
             </div>
 
@@ -190,8 +195,10 @@
                 <div class="step-number">2</div>
                 <div class="step-body">
                     <h3>Tambah Halaman Baharu</h3>
-                    <p>Tekan butang <strong>“Add pages”</strong> untuk mula membina halaman.</p>
-                    <div class="image-placeholder">🖼️ [Masukkan Gambar Langkah 2 Di Sini]</div>
+                    <p>Tekan butang <strong>“Add pages”</strong>.</p>
+                    <div class="image-container">
+                        <img src="https://i.imgur.com/5l3bg9W.jpeg" alt="Langkah 2">
+                    </div>
                 </div>
             </div>
 
@@ -200,8 +207,10 @@
                 <div class="step-number">3</div>
                 <div class="step-body">
                     <h3>Cipta Nama & URL Page</h3>
-                    <p>Masukkan apa sahaja nama (nama ini akan digunakan untuk link URL anda nanti). Selepas itu, tekan <strong>create</strong>.</p>
-                    <div class="image-placeholder">🖼️ [Masukkan Gambar Langkah 3 Di Sini]</div>
+                    <p>Create new page. Masukkan apa sahaja nama dan nama ini untuk link url kita nanti. Selepas itu tekan create.</p>
+                    <div class="image-container">
+                        <img src="https://i.imgur.com/4EATNIC.jpeg" alt="Langkah 3">
+                    </div>
                 </div>
             </div>
 
@@ -211,7 +220,9 @@
                 <div class="step-body">
                     <h3>Buka Editor Halaman</h3>
                     <p>Tekan pilihan <strong>“open in editor”</strong>.</p>
-                    <div class="image-placeholder">🖼️ [Masukkan Gambar Langkah 4 Di Sini]</div>
+                    <div class="image-container">
+                        <img src="https://i.imgur.com/3s4InV2.jpeg" alt="Langkah 4">
+                    </div>
                 </div>
             </div>
 
@@ -221,7 +232,9 @@
                 <div class="step-body">
                     <h3>Pilih Menu Import Template</h3>
                     <p>Tekan simbol anak panah ke bawah.</p>
-                    <div class="image-placeholder">🖼️ [Masukkan Gambar Langkah 5 Di Sini]</div>
+                    <div class="image-container">
+                        <img src="https://i.imgur.com/fM4Jhrw.jpeg" alt="Langkah 5">
+                    </div>
                 </div>
             </div>
 
@@ -230,14 +243,16 @@
                 <div class="step-number">6</div>
                 <div class="step-body">
                     <h3>Masukkan Kod Template</h3>
-                    <p>Salin kod template di bawah dan masukkan ke dalam sistem, kemudian tekan <strong>import</strong>:</p>
+                    <p>Masukkan code template ini dan tekan <strong>import</strong>:</p>
                     
                     <div class="code-box">
                         <span id="templateCode">d66e1531-872a-4f35-b4c0-97a2df336400</span>
                         <button class="copy-btn" onclick="copyCode()">Copy Kod</button>
                     </div>
 
-                    <div class="image-placeholder">🖼️ [Masukkan Gambar Langkah 6 Di Sini]</div>
+                    <div class="image-container">
+                        <img src="https://i.imgur.com/zJ5hFvm.jpeg" alt="Langkah 6">
+                    </div>
                 </div>
             </div>
 
@@ -247,7 +262,9 @@
                 <div class="step-body">
                     <h3>Kemaskini Button WhatsApp</h3>
                     <p>Scroll ke bawah dan tekan button whatsapp &gt; <strong>Attributes</strong> &gt; masukkan link whatsapp &gt; tekan <strong>save</strong>.</p>
-                    <div class="image-placeholder">🖼️ [Masukkan Gambar Langkah 7 Di Sini]</div>
+                    <div class="image-container">
+                        <img src="https://i.imgur.com/C1cbh5m.jpeg" alt="Langkah 7">
+                    </div>
                 </div>
             </div>
 
@@ -256,8 +273,10 @@
                 <div class="step-number">8</div>
                 <div class="step-body">
                     <h3>Semak URL Page</h3>
-                    <p>Pergi ke paparan <strong>“pages”</strong> dan tekan link URL page anda.</p>
-                    <div class="image-placeholder">🖼️ [Masukkan Gambar Langkah 8 Di Sini]</div>
+                    <p>Pergi ke paparan <strong>“pages”</strong> dan tekan link url page kita.</p>
+                    <div class="image-container">
+                        <img src="https://i.imgur.com/3giBiPD.jpeg" alt="Langkah 8">
+                    </div>
                 </div>
             </div>
 
@@ -266,7 +285,7 @@
                 <div class="step-number">9</div>
                 <div class="step-body">
                     <h3>Mula Promosi! ❤️</h3>
-                    <p>Copy link ini sebagai link rasmi anda dan boleh mula promote kepada umum. ❤️</p>
+                    <p>Copy link ini sebagai link kita dan boleh mula promote. ❤️</p>
                 </div>
             </div>
 
